@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Jupyter-specific
+.ipynb_checkpoints/
+
+# Kaggle data and cache
+data/*.csv
+data/*.zip
+kagglehub/
+
+# Word and doc temp files
+~$*.docx
+*.tmp
